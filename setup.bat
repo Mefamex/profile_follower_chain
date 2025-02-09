@@ -8,7 +8,7 @@ uv venv
 
 uv add uv
 
-uv sync
+uv sync --acvtive
 
 pause
 exit
