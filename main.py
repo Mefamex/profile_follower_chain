@@ -234,14 +234,14 @@ class open_in_browser:
             return render_template('404.html', e=str(e)), 404
     
 
-def main():
-    FollowerChain().start()
+def main(username:str):
+    FollowerChain(username=username).start()
     printAll()
     for q in Profiles.copy().keys():
         FollowerChain(q).start()
     printAll()
     exit()
-    browser  = open_in_browser()
+    #browser  = open_in_browser()
 
 print("main.py : touched . name =",__name__)
 if __name__ == "__main__":
