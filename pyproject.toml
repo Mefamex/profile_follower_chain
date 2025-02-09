@@ -1,0 +1,31 @@
+[project]
+name = "profile_follower_chain"
+version = "1.0.0"
+authors = [{ name = "Mefamex", email = "info@mefamex.com" }]
+maintainers = []
+description = "Kullanıcıların takipçi ve takip edilenlerini analiz eden bir Python projesidir. Kullanıcılar, belirli bir hesabın sosyal ağını keşfederek takipçi ve takip edilenlerin listesini çıkarabilir."
+keywords = [
+    "follower",
+    "followers",
+    "following",
+    "social network",
+    "analysis",
+    "python",
+    "crawler",
+    "API",
+    "user relationships",
+    "data extraction",
+    "open source",
+]
+readme = "README.md"
+license = { file = "LICENCE.txt" }
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.0",
+    "jsonify>=0.5",
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+    "selenium>=4.28.1",
+    "uv>=0.5.29",
+    "webdriver-manager>=4.0.2",
+]
